@@ -38,7 +38,7 @@ import random # For shuffling targets
 # 1. SYSTEM CONFIGURATION & UI
 # ==============================================================================
 st.set_page_config(
-    page_title="WORAPHOP EXPLORER (V58)",
+    page_title="WORAPHOP EXPLORER ",
     page_icon="🔭",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -723,4 +723,5 @@ elif mode == "🤖 Deep Sky Crawler":
                     csv = df.to_csv(index=False).encode('utf-8')
                     st.download_button("💾 Download Batch Results", csv, "batch_results.csv", "text/csv")
                     
+
             st.success("Done.")
