@@ -1,0 +1,13 @@
+streamlit
+lightkurve
+matplotlib
+numpy
+google-generativeai
+astropy
+astroquery
+scipy
+scikit-learn
+plotly
+pandas
+requests
+Pillow
