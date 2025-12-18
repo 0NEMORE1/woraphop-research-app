@@ -1,6 +1,6 @@
 """
 ################################################################################
-#  PROJECT WORAPHOP: THE EXPLORER EDITION (V58.0)                              #
+#  PROJECT Ai Exoplanet Hunter: THE EXPLORER EDITION (V58.0)                              #
 #  Advanced Autonomous Exoplanet Hunting & Research Pipeline                   #
 #  Status: OPERATIONAL | FIX: TIC List Randomization | SPECS: MAXIMIZED        #
 ################################################################################
@@ -38,7 +38,7 @@ import random # For shuffling targets
 # 1. SYSTEM CONFIGURATION & UI
 # ==============================================================================
 st.set_page_config(
-    page_title="WORAPHOP EXPLORER ",
+    page_title="Ai Exoplanet Hunter ",
     page_icon="🔭",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -725,4 +725,5 @@ elif mode == "🤖 Deep Sky Crawler":
                     
 
             st.success("Done.")
+
 
