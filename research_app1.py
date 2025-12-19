@@ -579,7 +579,7 @@ def display_html_metrics(period, radius, temp, insol, snr, dens, ptype, sptype, 
 # ==============================================================================
 with st.sidebar:
     st.title("🌌AI Exoplanet Hunter")
-    st.caption("EXPLORER EDITION")
+    st.caption("By WOraphop Tessarak")
     mode = st.radio("Mode:", ["🔬 Single Analysis", "🤖 Deep Sky Crawler"])
     st.markdown("---")
     api_key = st.text_input("🔑 Gemini Key", type="password")
@@ -591,9 +591,9 @@ with st.sidebar:
         star_t = st.number_input("Star Temp", 1000, 30000, 5778)
     else:
         star_r, star_t = 1.0, 5778
-    st.info("Lead: **Woraphop Tessarak**")
+    st.info("Head of Project : **Woraphop Tessarak**")
 
-st.markdown("<h1 class='header-title'>🔭 WORAPHOP RESEARCH STATION</h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='header-title'>🔭 AI Exoplaner Hunter </h1>", unsafe_allow_html=True)
 
 # -----------------------------
 # MODE 1: SINGLE ANALYSIS
@@ -725,6 +725,7 @@ elif mode == "🤖 Deep Sky Crawler":
                     
 
             st.success("Done.")
+
 
 
 
