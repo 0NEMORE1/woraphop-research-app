@@ -593,7 +593,7 @@ with st.sidebar:
         star_r, star_t = 1.0, 5778
     st.info("Head of Project : **Woraphop Tessarak**")
 
-st.markdown("<h1 class='header-title'>🔭 AI Exoplaner Hunter </h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='header-title'>🔭 AI Exoplanet Hunter </h1>", unsafe_allow_html=True)
 
 # -----------------------------
 # MODE 1: SINGLE ANALYSIS
@@ -725,6 +725,7 @@ elif mode == "🤖 Deep Sky Crawler":
                     
 
             st.success("Done.")
+
 
 
 
