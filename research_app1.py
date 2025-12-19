@@ -578,7 +578,7 @@ def display_html_metrics(period, radius, temp, insol, snr, dens, ptype, sptype, 
 # 6. UI LOGIC (MAIN)
 # ==============================================================================
 with st.sidebar:
-    st.title("🌌 WORAPHOP AI")
+    st.title("🌌AI Exoplanet Hunter")
     st.caption("EXPLORER EDITION")
     mode = st.radio("Mode:", ["🔬 Single Analysis", "🤖 Deep Sky Crawler"])
     st.markdown("---")
@@ -725,5 +725,6 @@ elif mode == "🤖 Deep Sky Crawler":
                     
 
             st.success("Done.")
+
 
 
